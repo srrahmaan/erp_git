@@ -1,0 +1,373 @@
+@font-face {
+     font-family: "SF-Regular";
+     src: url("../fonts/SFUIText-Regular.ttf");
+}
+
+@font-face {
+     font-family: "SF-SemiBold";
+     src: url("../fonts/SFUIText-Semibold.ttf");
+}
+
+@font-face {
+     font-family: "SF-Medium";
+     src: url("../fonts/SFUIText-Medium.ttf");
+}
+
+body {
+     font-family: "SF-Regular" !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: "SF-SemiBold" !important;
+}
+
+.container {
+     min-width: 95% !important;
+}
+
+.btn-primary {
+     background-color: #0D3745 !important;
+     border-color: #0D3745;
+}
+
+.btn-success {
+     background-color: #BFE5BF !important;
+     border-color: #BFE5BF;
+     color: black;
+}
+
+.btn-success:hover {
+     border-color: green;
+     color: black;
+}
+
+.btn-info {
+     background-color: #006B75;
+     border-color: #BFE5BF;
+}
+
+.btn-secondary {
+     background-color: #707070 !important;
+     border-color: #BFE5BF;
+}
+
+.hero-section {
+     background-image: url(../images/hero_bg.svg);
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 0px;
+     max-height: 540px;
+}
+
+.alertBG {
+     background-color: #F3F2ED !important;
+     border: 0px;
+}
+
+.heading-20 {
+     font-size: 16px !important;
+     color: #000000;
+}
+
+.para-15 {
+     font-size: 15px !important;
+     color: #000000;
+     opacity: 30%;
+     line-height: 20px;
+     font-family: "SF-Medium" !important;
+}
+
+.mainCard {
+     box-shadow: 0 0 60px rgba(0, 0, 0, 0.10) !important;
+     border: 0px !important;
+}
+
+.font-15 {
+     font-size: 15px !important;
+}
+
+.top-buttons-ul {
+     list-style: none;
+     padding-left: 0px;
+     /* white-space: nowrap; */
+}
+
+.top-buttons-ul li {
+     display: inline;
+     margin-right: 10px;
+     border-radius: 5px;
+}
+
+.top-buttons-ul li a {
+     color: #000000;
+}
+
+.top-buttons-ul li:hover {
+     background-color: #f2f2f2;
+}
+
+.top-buttons-ul li a:hover {
+     text-decoration: none;
+}
+
+.top-buttons-ul li.active {
+     background-color: #FDB834;
+     border: 0px !important;
+}
+
+.top-buttons-ul li.active a {
+     color: white;
+}
+
+.arrow-li {
+     border: 0px !important;
+     float: right;
+}
+
+.arrowLeft-li {
+     border: 0px !important;
+}
+
+.arrow-li:hover {
+     background-color: transparent !important;
+}
+
+label {
+     font-size: 13px !important;
+     font-family: "SF-Medium" !important;
+}
+
+.custom-select {
+     border: 0px;
+     border-bottom: 0.03px solid #707070 !important;
+     border-radius: 0px;
+     font-size: 13px !important;
+     font-family: "SF-SemiBold" !important;
+     padding-left: 0px;
+     color: black;
+     opacity: 30%;
+}
+
+.custom-select:focus, .specialInput:focus {
+     box-shadow: none !important;
+}
+
+.specialInput {
+     border: 0px;
+     border-bottom: 0.03px solid #707070 !important;
+     border-radius: 0px;
+     font-size: 13px !important;
+     font-family: "SF-SemiBold" !important;
+     padding-left: 0px;
+     color: black;
+     opacity: 30%;
+     padding-bottom: 11px;
+}
+
+.scrollSection {
+     overflow-y: scroll;
+     height: 500px;
+     overflow-x: hidden;
+}
+
+.selectBG {
+     background-color: #EAE8DC !important;
+     padding: 5px !important;
+     opacity: 1 !important;
+     border-radius: 5px !important;
+     border: 0px !important;
+}
+
+.btn-dark {
+     background-color: #093254 !important;
+}
+
+.btn-dark:focus {
+     border-color: #093254 !important;
+     box-shadow: none !important;
+}
+
+.totalCard {
+     background-color: #FEF7E9;
+     border: 0px;
+     border-radius: 5px;
+}
+
+.totalCard1 {
+     background-color: #FCD3BC;
+     border: 0px;
+     border-radius: 5px;
+}
+
+.width50px {
+     width: 100px;
+}
+
+.orangeSpan {
+     background-color: #0D3745;
+     padding: 10px 40px;
+     border-radius: 5px;
+     color: white;
+     font-size: 17px;
+}
+
+.darkSpan {
+     background-color: #0D3745;
+     padding: 10px 40px;
+     border-radius: 5px;
+     color: white;
+     font-size: 17px;
+}
+
+.table td {
+     border: 0px !important;
+     padding: 5px 10px !important;
+}
+
+.font-20 {
+     font-size: 20px !important;
+}
+
+#basic-addon2 {
+     background-color: #0D3745;
+     color: white;
+     border-radius: 5px;
+     border: 0px !important;
+}
+
+.modal-lg {
+     max-width: 1300px !important;
+}
+
+.span-muted {
+     color: black;
+     opacity: 30%;
+     font-size: 13px;
+}
+
+.heading-15 {
+     font-size: 15px !important;
+}
+
+/* Invoice Page */
+
+.heading-30 {
+     color: #000000;
+     font-size: 20px;
+     font-family: "SF-SemiBold" !important;
+}
+
+.invoice-para {
+     color: #000000;
+     font-size: 16px;
+     opacity: 30%;
+     font-family: "SF-SemiBold" !important;
+}
+
+.no-pl {
+     padding-left: 0px !important;
+}
+
+.invoiceTable td {
+     padding-left: 0px !important;
+}
+
+.invoiceTable th {
+     border: 0px !important;
+}
+
+.thead-dark {
+     background-color: #093254 !important;
+}
+
+.invoiceDetails-table {
+     background-color: #FEF7E9;
+}
+
+.invoiceDetails-table td {
+     border: 1px solid #D4D4D4 !important;
+     text-align: center;
+}
+
+.invoiceDetails-table th {
+     text-align: center;
+}
+
+.totalCard1 table th {
+     border: 0px !important;
+}
+
+.border-dashed {
+     border: 1px dashed #D4D4D4;
+}
+
+.contact-para {
+     font-family: "SF-SemiBold" !important;
+     font-size: 18px !important;
+}
+
+.circleList-ul li {
+     list-style: circle;
+}
+
+.heading-dark {
+     color: #0D3745 !important;
+     font-family: "SF-Medium" !important;
+}
+
+.btn-warning {
+     background-color: #FEF2C0 !important;
+     border-color: #FEF2C0 !important;
+}
+
+.slick-next:before {
+     background-image: url(../images/arrow-right.svg);
+     background-repeat: no-repeat;
+     line-height: 1.4 !important;
+}
+
+.slick-prev:before {
+     background-image: url(../images/arrow-left.svg);
+     background-repeat: no-repeat;
+     line-height: 1.4 !important;
+}
+
+.btn-light {
+     background-color: #EAE8DC !important;
+}
+
+.noBorder .input-group-text {
+     border: 0px !important;
+}
+
+.mtop-10 {
+     border-top: 10px solid white;
+}
+
+.heading-left {
+     background-color: #093254 !important;
+     color: white;
+     padding: 10px;
+     position: relative;
+     left: -10px;
+     opacity: 80%;
+     width: 15%;
+     border-radius: 0px 10px 10px 0px;
+}
+
+.parent-ul li, .child-ul li {
+     margin-bottom: 10px;
+}
+
+.dottedBorder {
+     border: 1px dashed #111;
+}
+
+@media screen and (min-width: 250px) and (max-width: 768px) {
+     .btn-dark {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          font-size: 14px;
+     }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>ERP</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <!-- Custom CSS -->
+
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8 col-sm-8 col-12">
+                <form>
+                    <div class="row">
+                        <div class="col-lg-1 col-sm-1 col-3 my-auto">
+                            <h6 class="mb-0">Include</h6>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 col-3 my-auto">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check1">
+                                <label class="custom-control-label" for="check1">Weekends</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-2 col-3 my-auto">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check2">
+                                <label class="custom-control-label" for="check2">Saturdays</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-3 my-auto">
+                            <select class="custom-select">
+                                <option selected>Months-Days</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 col-sm-4 col-12">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-light mr-2">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                        Clear</button>
+                    <button type="button" class="btn btn-danger mr-2">
+                        <small class="mr-2">Total Days:</small>
+                        15 Days
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        Add to Quote
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <hr>
+        <form>
+            <div class="row">
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12">
+                    <span class="datepicker"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Datepicker -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".datepicker").flatpickr({
+                enableTime: false,
+                dateFormat: "D j, F",
+                mode: "multiple",
+                inline: true
+            });
+
+        });
+    </script>
+</body>
+
+</html>

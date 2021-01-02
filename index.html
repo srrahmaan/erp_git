@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+     <title>ERP</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="assets/css/custom.css" />
+     <!-- Custom CSS -->
+
+     <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+     <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+     <!-- Add Onnet Products Modal -->
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+               <div class="modal-content">
+                    <div class="modal-body">
+                         <div class="row">
+                              <div class="col-lg-12 col-sm-12 col-12">
+                                   <h6 class="heading-15">Block</h6>
+                              </div>
+                         </div>
+                         <div class="row">
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Block</label>
+                                   <select class="custom-select">
+                                        <option selected="">Product: OmniBranch </option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                         </div>
+                         <div class="row mt-3">
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Contract Duration</label>
+                                   <select class="custom-select">
+                                        <option selected="">24</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Client Zone</label>
+                                   <select class="custom-select">
+                                        <option selected="">BAH</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-3">Dedicated Connection</label>
+                                   <div class="clearfix"></div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                             id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                   </div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                             id="inlineRadio2" value="option2" checked>
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                   </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Bandwidth</label>
+                                   <select class="custom-select">
+                                        <option selected="">25M</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                         </div>
+                         <div class="row mt-3">
+                              <div class="col-lg-12 col-sm-12 col-12">
+                                   <h6 class="heading-15">Hardware</h6>
+                              </div>
+                         </div>
+                         <div class="row mt-3">
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-0">Hardware Vendor Deal</label>
+                                   <select class="custom-select">
+                                        <option selected="">CPE_VERSA_SPECIAL_2020_SEP</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                                   <span class="span-muted">Hardware Vendor Deal</span>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-3">Hardware Useful Life</label>
+                                   <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
+                                   <span class="span-muted">Used</span>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-0">CPE OEM</label>
+                                   <select class="custom-select">
+                                        <option selected="">Versa</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                                   <span class="span-muted text-center d-block">CPE Vendor</span>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-0">CPE Model</label>
+                                   <select class="custom-select">
+                                        <option selected="">CSG-750</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-3">Dedicated Connection</label>
+                                   <div class="clearfix"></div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                             id="inlineRadio3" value="option1">
+                                        <label class="form-check-label" for="inlineRadio3">Yes</label>
+                                   </div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                             id="inlineRadio4" value="option2" checked>
+                                        <label class="form-check-label" for="inlineRadio4">No</label>
+                                   </div>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-3">Dedicated Connection</label>
+                                   <div class="clearfix"></div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                             id="inlineRadio5" value="option1">
+                                        <label class="form-check-label" for="inlineRadio5">Yes</label>
+                                   </div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                             id="inlineRadio6" value="option2" checked>
+                                        <label class="form-check-label" for="inlineRadio6">No</label>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="row mt-3">
+                              <div class="col-lg-12 col-sm-12 col-12">
+                                   <h6 class="heading-15">License</h6>
+                              </div>
+                         </div>
+                         <div class="row mt-3">
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-0">License Vendor Deal</label>
+                                   <select class="custom-select">
+                                        <option selected="">LIC_SPECIAL_2019_DEC</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-3">License Useful Life</label>
+                                   <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 90%"
+                                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                   </div>
+                                   <span class="span-muted">Brand New</span>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-3">License Type</label>
+                                   <div class="clearfix"></div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                             id="inlineRadio7" value="option1">
+                                        <label class="form-check-label" for="inlineRadio7">Standard</label>
+                                   </div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                             id="inlineRadio8" value="option2" checked>
+                                        <label class="form-check-label" for="inlineRadio8">Advanced</label>
+                                   </div>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-3">Firewall</label>
+                                   <div class="clearfix"></div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                             id="inlineRadio9" value="option1">
+                                        <label class="form-check-label" for="inlineRadio9">None</label>
+                                   </div>
+                                   <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                             id="inlineRadio10" value="option2" checked>
+                                        <label class="form-check-label" for="inlineRadio10">NGFW</label>
+                                   </div>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12 offset-lg-2 offset-sm-2 text-right">
+                                   <button class="btn btn-primary btn-dark mt-4">
+                                        <i class="fa fa-dollar"></i>
+                                        Get Price
+                                   </button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- End -->
+
+     <!-- Add New Modal -->
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+               <div class="modal-content">
+                    <div class="modal-body">
+                         <div class="row">
+                              <div class="col-lg-12 col-sm-12 col-12">
+                                   <h6 class="heading-15">Add Item</h6>
+                              </div>
+                         </div>
+                         <div class="row">
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Name</label>
+                                   <input type="text" class="form-control specialInput" placeholder="Name">
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Description</label>
+                                   <input type="text" class="form-control specialInput" placeholder="Description">
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">Quantity, Unit</label>
+                                   <select class="custom-select">
+                                        <option selected="">1.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PCX</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                   </select>
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">In Rate</label>
+                                   <div class="row">
+                                        <div class="col-lg-10 col sm-10 col-10">
+                                             <input type="text" class="form-control specialInput"
+                                                  placeholder="Standard Rate">
+                                        </div>
+                                        <div class="col-lg-2 col-sm-2 col-2 px-0">
+                                             <a href="">
+                                                  <img src="assets/images/cross.svg" alt="" class="img-fluid">
+                                             </a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="row mt-3">
+                              <div class="col-lg-1 col-sm-1 col-12">
+                                   <label class="mb-0">Margin</label>
+                                   <div class="input-group">
+                                        <input type="text" class="form-control specialInput" placeholder="0">
+                                        <select class="custom-select selectBG">
+                                             <option selected=""> % </option>
+                                             <option> $ </option>
+                                        </select>
+                                   </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-3 col-12">
+                                   <label class="mb-0">In Rate</label>
+                                   <div class="row">
+                                        <div class="col-lg-10 col sm-10 col-10">
+                                             <input type="text" class="form-control specialInput"
+                                                  placeholder="Standard Rate">
+                                        </div>
+                                        <div class="col-lg-2 col-sm-2 col-2 px-0">
+                                             <a href="">
+                                                  <img src="assets/images/cross.svg" alt="" class="img-fluid">
+                                             </a>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-lg-1 col-sm-1 col-12">
+                                   <label class="mb-0">Discount</label>
+                                   <div class="input-group">
+                                        <input type="text" class="form-control specialInput" placeholder="0">
+                                        <select class="custom-select selectBG">
+                                             <option selected=""> % </option>
+                                             <option> $ </option>
+                                        </select>
+                                   </div>
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-0">Amount</label>
+                                   <input type="text" class="form-control specialInput" placeholder="1373.00">
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12">
+                                   <label class="mb-0">Actuals</label>
+                                   <input type="text" class="form-control specialInput" placeholder="1373.00">
+                              </div>
+                              <div class="col-lg-2 col-sm-2 col-12 offset-lg-1 offset-sm-1">
+                                   <button class="btn btn-primary btn-dark mt-4">
+                                        <i class="fa fa-plus"></i>
+                                        Add Item
+                                   </button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- End -->
+
+     <!-- Hero Section -->
+     <div class="jumbotron hero-section">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-12">
+                         <div class="card mainCard p-4 mb-5">
+                              <div class="row">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <div class="alert alert-warning mb-0 alertBG" role="alert">
+                                             <h6 class="heading-20">ERP Project Management Module v2</h6>
+                                             <p class="para-15">
+                                                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                  industry. Lorem Ipsum has been the industry's standard
+                                                  dummy text ever since the 1500s, when an unknown printer took a galley
+                                                  of type and scrambled it to make a type specimen
+                                                  book. It has survived not only five centuries, but also the leap into
+                                                  electronic typesetting, remaining essentially
+                                                  unchanged. It was popularised in the 1960s with the release of
+                                                  Letraset sheets containing Lorem Ipsum passages, and more
+                                                  recently with desktop publishing software like Aldus PageMaker
+                                                  including versions of Lorem Ipsum.
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-2 col-sm-2 col-12 my-auto">
+                                        <h6 class="heading-20">Overall Project Status</h6>
+                                   </div>
+                                   <div class="col-lg-2 col-sm-2 col-12 my-auto">
+                                        <button type="button" class="btn btn-warning">Pending</button>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-1 col-sm-1 col-1">
+                                        <button type="button" class="btn btn-primary">Push to Zoho</button>
+                                   </div>
+                                   <div class="col-lg-11 col-sm-11 col-11 pl-5 my-auto">
+                                        <section class="customer-logos slider justify-content-center">
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 1.1</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-secondary">Quote 1.2</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-success">Quote 1.3</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-info">Quote 1.4</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 1.5</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-secondary">Quote 1.6</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-success">Quote 1.7</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-info">Quote 1.8</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 1.9</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-secondary">Quote 2.0</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-success">Quote 2.1</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-info">Quote 2.2</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 2.3</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-secondary">Quote 2.4</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 1.1</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-secondary">Quote 1.2</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-success">Quote 1.3</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-info">Quote 1.4</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 1.5</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-secondary">Quote 1.6</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-success">Quote 1.7</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-info">Quote 1.8</button>
+                                             </div>
+                                             <div class="slide">
+                                                  <button type="button" class="btn btn-warning">Quote 1.9</button>
+                                             </div>
+                                        </section>
+                                        <!-- End Brand Logo SLider -->
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-1 col-sm-1 col-12">
+                                        <button type="button" class="btn btn-light">Duplicate</button>
+                                   </div>
+                                   <div class="col-lg-1 col-sm-1 col-12">
+                                        <button type="button" class="btn btn-danger">Cancel</button>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-1 col-sm-1 col-2 my-auto">
+                                        <h6 class="heading-20">Filter</h6>
+                                   </div>
+                                   <div class="col-lg-10 col-sm-10 col-10 my-auto">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                             <div class="btn-group" role="group" aria-label="Basic example">
+                                                  <button type="button" class="btn btn-warning mr-2">
+                                                       <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                       Pending
+                                                  </button>
+                                                  <button type="button" class="btn btn-secondary mr-2">
+                                                       <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                       Cancelled
+                                                  </button>
+                                                  <button type="button" class="btn btn-success mr-2">
+                                                       <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                       Active
+                                                  </button>
+                                                  <button type="button" class="btn btn-info">
+                                                       <input type="checkbox"
+                                                            aria-label="Checkbox for following text input">
+                                                       Complete
+                                                  </button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <h6 class="heading-20">Project Overview</h6>
+                                   </div>
+                              </div>
+                              <div class="row mt-2">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <form class="bg-light p-3">
+                                             <div class="row mt-2">
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Project Name</label>
+                                                       <input type="text" class="form-control specialInput"
+                                                            placeholder="Project Name">
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Project Description</label>
+                                                       <input type="text" class="form-control specialInput"
+                                                            placeholder="Project Description">
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Start Date</label>
+                                                       <input type="date" class="form-control specialInput"
+                                                            placeholder="DD/MM/YYYY">
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>End Date</label>
+                                                       <input type="date" class="form-control specialInput"
+                                                            placeholder="DD/MM/YYYY">
+                                                  </div>
+                                             </div>
+                                             <div class="row mt-2">
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Job #</label>
+                                                       <select class="custom-select">
+                                                            <option selected>MMYY.FL001</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Requirement Overview</label>
+                                                       <input type="text" class="form-control specialInput"
+                                                            placeholder="Requirement Overview">
+                                                  </div>
+                                             </div>
+                                             <div class="row mt-2">
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Country</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Country</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>City</label>
+                                                       <select class="custom-select">
+                                                            <option selected>City</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Venue</label>
+                                                       <input type="text" class="form-control specialInput"
+                                                            placeholder="Venue">
+                                                  </div>
+                                             </div>
+                                        </form>
+                                   </div>
+                              </div>
+
+                              <div class="row mt-4">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <h6 class="heading-20">Client</h6>
+                                   </div>
+                              </div>
+                              <div class="row mt-2">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <form class="bg-light p-3">
+                                             <div class="row mt-2">
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Client</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Client</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Main Client Rep</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Main Client Rep</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Overall Status</label>
+                                                       <input type="text" class="form-control specialInput"
+                                                            placeholder="Dropdown Status Options">
+                                                  </div>
+                                             </div>
+                                        </form>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <h6 class="heading-20">Handling</h6>
+                                   </div>
+                              </div>
+                              <div class="row mt-2">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <form class="bg-light p-3">
+                                             <div class="row mt-2">
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Project Status</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Budget / Book</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Department</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Department</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Project Lead</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Project Lead</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Project Manager</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Project Manager</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                                  <div class="col-lg-2 col-sm-2 col-6">
+                                                       <label>Project Support</label>
+                                                       <select class="custom-select">
+                                                            <option selected>Project Support</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                       </select>
+                                                  </div>
+                                             </div>
+                                        </form>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <h6 class="heading-20">Pricing Table</h6>
+                                   </div>
+                              </div>
+                              <div class="row mt-2">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                             <button type="button" class="btn btn-primary mr-2">Select All</button>
+                                             <button type="button" class="btn btn-light mr-2">Duplicate</button>
+                                             <button type="button" class="btn btn-light mr-2">Move</button>
+                                             <button type="button" class="btn btn-light mr-2">Group</button>
+                                             <button type="button" class="btn btn-light">Delete</button>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <div class="scrollSection">
+                                             <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-12">
+                                                       <table class="table table-borderless">
+                                                            <thead>
+                                                                 <tr>
+                                                                      <th scope="col">&nbsp;</th>
+                                                                      <th scope="col">Item Details</th>
+                                                                      <th scope="col">Quantity, Unit</th>
+                                                                      <th scope="col">In Rate</th>
+                                                                      <th scope="col">Margin</th>
+                                                                      <th scope="col">Out Rate</th>
+                                                                      <th scope="col">Discount</th>
+                                                                      <th scope="col">Amount</th>
+                                                                 </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                 <tr class="bg-light">
+                                                                      <td style="width: 70px;">
+                                                                           <input type="checkbox"
+                                                                                aria-label="Checkbox for following text input">
+                                                                           <img src="assets/images/setting.svg" alt=""
+                                                                                class="img-fluid">
+                                                                      </td>
+                                                                      <td style="width: 400px;">
+                                                                           <p>Item Name</p>
+                                                                           <p align="justify">
+                                                                                Lorem Ipsum is simply dummy text of the
+                                                                                printing and typesetting industry. Lorem
+                                                                                Ipsum has been the industry's standard
+                                                                                dummy text ever since the 1500s, when an
+                                                                                unknown printer took a galley of type
+                                                                                and scrambled it to make a type specimen
+                                                                                book. It has survived not only five
+                                                                                centuries, but also the leap into
+                                                                                electronic typesetting, remaining
+                                                                                essentially
+                                                                                unchanged. It was popularised in the
+                                                                                1960s with the release of Letraset
+                                                                                sheets containing
+                                                                           </p>
+                                                                      </td>
+                                                                      <td style="width: 150px;" class="text-center">
+                                                                           <p>1.00</p>
+                                                                           <select class="custom-select">
+                                                                                <option selected="">PCX </option>
+                                                                           </select>
+                                                                           <a href="">
+                                                                                <img src="assets/images/calendar.svg"
+                                                                                     alt="" class="img-flu">
+                                                                           </a>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="1373.00">
+                                                                      </td>
+                                                                 </tr>
+                                                                 <tr class="bg-light mtop-10">
+                                                                      <td style="width: 70px;">
+                                                                           <input type="checkbox"
+                                                                                aria-label="Checkbox for following text input">
+                                                                           <img src="assets/images/setting.svg" alt=""
+                                                                                class="img-fluid">
+                                                                      </td>
+                                                                      <td style="width: 400px;">
+                                                                           <p>Item Name</p>
+                                                                           <p align="justify">
+                                                                                Lorem Ipsum is simply dummy text of the
+                                                                                printing and typesetting industry. Lorem
+                                                                                Ipsum has been the industry's standard
+                                                                                dummy text ever since the 1500s, when an
+                                                                                unknown printer took a galley of type
+                                                                                and scrambled it to make a type specimen
+                                                                                book. It has survived not only five
+                                                                                centuries, but also the leap into
+                                                                                electronic typesetting, remaining
+                                                                                essentially
+                                                                                unchanged. It was popularised in the
+                                                                                1960s with the release of Letraset
+                                                                                sheets containing
+                                                                           </p>
+                                                                      </td>
+                                                                      <td style="width: 150px;" class="text-center">
+                                                                           <p>1.00</p>
+                                                                           <select class="custom-select">
+                                                                                <option selected="">PCX </option>
+                                                                           </select>
+                                                                           <a href="">
+                                                                                <img src="assets/images/calendar.svg"
+                                                                                     alt="" class="img-flu">
+                                                                           </a>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="1373.00">
+                                                                      </td>
+                                                                 </tr>
+                                                            </tbody>
+                                                       </table>
+                                                  </div>
+                                             </div>
+                                             <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-12">
+                                                       <h6 class="heading-20">Header Name</h6>
+                                                  </div>
+                                             </div>
+                                             <div class="row">
+                                                  <div class="col-lg-12 col-sm-12 col-12">
+                                                       <table class="table table-borderless">
+                                                            <tbody>
+                                                                 <tr class="bg-light">
+                                                                      <td style="width: 70px;">
+                                                                           <input type="checkbox"
+                                                                                aria-label="Checkbox for following text input">
+                                                                           <img src="assets/images/setting.svg" alt=""
+                                                                                class="img-fluid">
+                                                                      </td>
+                                                                      <td style="width: 400px;">
+                                                                           <p>Item Name</p>
+                                                                           <p align="justify">
+                                                                                Lorem Ipsum is simply dummy text of the
+                                                                                printing and typesetting industry. Lorem
+                                                                                Ipsum has been the industry's standard
+                                                                                dummy text ever since the 1500s, when an
+                                                                                unknown printer took a galley of type
+                                                                                and scrambled it to make a type specimen
+                                                                                book. It has survived not only five
+                                                                                centuries, but also the leap into
+                                                                                electronic typesetting, remaining
+                                                                                essentially
+                                                                                unchanged. It was popularised in the
+                                                                                1960s with the release of Letraset
+                                                                                sheets containing
+                                                                           </p>
+                                                                      </td>
+                                                                      <td style="width: 150px;" class="text-center">
+                                                                           <p>1.00</p>
+                                                                           <select class="custom-select">
+                                                                                <option selected="">PCX </option>
+                                                                           </select>
+                                                                           <a href="">
+                                                                                <img src="assets/images/calendar.svg"
+                                                                                     alt="" class="img-flu">
+                                                                           </a>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="1373.00">
+                                                                      </td>
+                                                                 </tr>
+                                                                 <tr class="bg-light mtop-10">
+                                                                      <td style="width: 70px;">
+                                                                           <input type="checkbox"
+                                                                                aria-label="Checkbox for following text input">
+                                                                           <img src="assets/images/setting.svg" alt=""
+                                                                                class="img-fluid">
+                                                                      </td>
+                                                                      <td style="width: 400px;">
+                                                                           <p>Item Name</p>
+                                                                           <p align="justify">
+                                                                                Lorem Ipsum is simply dummy text of the
+                                                                                printing and typesetting industry. Lorem
+                                                                                Ipsum has been the industry's standard
+                                                                                dummy text ever since the 1500s, when an
+                                                                                unknown printer took a galley of type
+                                                                                and scrambled it to make a type specimen
+                                                                                book. It has survived not only five
+                                                                                centuries, but also the leap into
+                                                                                electronic typesetting, remaining
+                                                                                essentially
+                                                                                unchanged. It was popularised in the
+                                                                                1960s with the release of Letraset
+                                                                                sheets containing
+                                                                           </p>
+                                                                      </td>
+                                                                      <td style="width: 150px;" class="text-center">
+                                                                           <p>1.00</p>
+                                                                           <select class="custom-select">
+                                                                                <option selected="">PCX </option>
+                                                                           </select>
+                                                                           <a href="">
+                                                                                <img src="assets/images/calendar.svg"
+                                                                                     alt="" class="img-flu">
+                                                                           </a>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="Standard Rate">
+                                                                      </td>
+                                                                      <td>
+                                                                           <div class="input-group">
+                                                                                <input type="text"
+                                                                                     class="form-control specialInput"
+                                                                                     placeholder="0">
+                                                                                <select class="custom-select selectBG">
+                                                                                     <option selected="">% </option>
+                                                                                </select>
+                                                                           </div>
+                                                                      </td>
+                                                                      <td>
+                                                                           <input type="text"
+                                                                                class="form-control specialInput"
+                                                                                placeholder="1373.00">
+                                                                      </td>
+                                                                 </tr>
+                                                            </tbody>
+                                                       </table>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-12 col-sm-12 col-12">
+                                        <button class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                                             <i class="fa fa-plus"></i>
+                                             Add Item
+                                        </button>
+                                        <button class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                                             <i class="fa fa-plus"></i>
+                                             Add Candidate
+                                        </button>
+                                        <button class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                                             <i class="fa fa-plus"></i>
+                                             Add Header
+                                        </button>
+                                        <button class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                                             <i class="fa fa-arrow-down"></i>
+                                             Import
+                                        </button>
+                                   </div>
+                              </div>
+                              <div class="row mt-4">
+                                   <div class="col-lg-7 col-sm-7 col-12">
+                                        <div class="row">
+                                             <div class="col-lg-12 col-sm-12 col-12">
+                                                  <h6 class="heading-20">General Notes</h6>
+                                                  <p class="para-15">
+                                                       Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                       industry. Lorem Ipsum has been the industry's standard
+                                                       dummy text ever since the 1500s, when an unknown printer took a
+                                                       galley of type and scrambled it to make a type specimen
+                                                       book. It has survived not only five centuries, but also the leap
+                                                       into electronic typesetting, remaining essentially
+                                                       unchanged. It was popularised in the 1960s with the release of
+                                                       Letraset sheets containing Lorem Ipsum passages, and more
+                                                       recently with desktop
+                                                  </p>
+                                             </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row mt-4">
+                                             <div class="col-lg-3 col-sm-3 col-12 my-auto">
+                                                  <h6 class="heading-20">Terms and Conditions</h6>
+                                             </div>
+                                             <div class="col-lg-3 col-sm-3 col-12 my-auto">
+                                                  <select class="custom-select">
+                                                       <option selected>Terms Template</option>
+                                                  </select>
+                                             </div>
+                                             <div class="col-lg-6 col-sm-6 col-12 my-auto">
+                                                  <button class="btn btn-light" data-toggle="modal"
+                                                       data-target="#exampleModal">
+                                                       <i class="fa fa-save"></i>
+                                                       Save
+                                                  </button>
+                                                  <button class="btn btn-primary btn-dark">
+                                                       <i class="fa fa-plus pr-2"></i>
+                                                       Create New T & C
+                                                  </button>
+                                             </div>
+                                        </div>
+                                        <div class="row mt-4">
+                                             <div class="col-lg-12 col-sm-12 col-12">
+                                                  <p class="para-15">
+                                                       Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                       industry. Lorem Ipsum has been the industry's standard dummy text
+                                                       ever since the 1500s, when an unknown printer took a galley of
+                                                       type and scrambled it to make a type specimen book. It has
+                                                       survived not only five centuries, but also the leap into
+                                                       electronic typesetting, remaining essentially unchanged. It was
+                                                       popularised in the 1960s with the release of Letraset sheets
+                                                       containing Lorem
+                                                       Ipsum passages, and more recently with desktop publishing
+                                                       software like Aldus
+                                                  </p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="col-lg-5 col-sm-5 col-12">
+                                        <div class="card totalCard alertBG">
+                                             <table class="table table-borderless">
+                                                  <tbody>
+                                                       <tr>
+                                                            <td class="text-muted" colspan="2">Total Quantity</td>
+                                                            <td class="float-right">321</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted" colspan="2">Total Cost</td>
+                                                            <td class="float-right">$5648</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted" colspan="2">Total Margin</td>
+                                                            <td class="float-right">5615</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted" colspan="2">Sub Total</td>
+                                                            <td class="float-right">5216541</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted" colspan="2">Discount</td>
+                                                            <td class="float-right">54651</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted">EventLab Fees
+                                                                 <a href="">
+                                                                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                 </a>
+                                                            </td>
+                                                            <td class="text-muted width50px">
+                                                                 <div class="input-group">
+                                                                      <input type="text" class="form-control"
+                                                                           placeholder="0"
+                                                                           aria-label="Recipient's username"
+                                                                           aria-describedby="basic-addon2">
+                                                                      <div class="input-group-append">
+                                                                           <span class="input-group-text"
+                                                                                id="basic-addon2">%</span>
+                                                                      </div>
+                                                                 </div>
+                                                            </td>
+                                                            <td class="float-right">54651</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted">Discount
+                                                                 <a href="">
+                                                                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                 </a>
+                                                            </td>
+                                                            <td class="text-muted width50px">
+                                                                 <div class="input-group">
+                                                                      <input type="text" class="form-control"
+                                                                           placeholder="0"
+                                                                           aria-label="Recipient's username"
+                                                                           aria-describedby="basic-addon2">
+                                                                      <div class="input-group-append">
+                                                                           <span class="input-group-text"
+                                                                                id="basic-addon2">%</span>
+                                                                      </div>
+                                                                 </div>
+                                                            </td>
+                                                            <td class="float-right">54651</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="text-muted">Tax Total
+                                                                 <a href="">
+                                                                      <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                                 </a>
+                                                            </td>
+                                                            <td class="text-muted width50px">
+                                                                 <div class="input-group">
+                                                                      <input type="text" class="form-control"
+                                                                           placeholder="0"
+                                                                           aria-label="Recipient's username"
+                                                                           aria-describedby="basic-addon2">
+                                                                      <div class="input-group-append">
+                                                                           <span class="input-group-text"
+                                                                                id="basic-addon2">%</span>
+                                                                      </div>
+                                                                 </div>
+                                                            </td>
+                                                            <td class="float-right">54651</td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td class="font-20" colspan="2">Total Amount</td>
+                                                            <td class="float-right">
+                                                                 <span class="orangeSpan">215416541</span>
+                                                            </td>
+                                                       </tr>
+                                                  </tbody>
+                                             </table>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- End -->
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="assets/js/jquery.min.js"></script>
+     <script src="assets/js/popper.min.js "></script>
+     <script src="assets/js/bootstrap.min.js "></script>
+
+     <!-- Slick JS -->
+     <script type="text/javascript" src="assets/js/slick.min.js"></script>
+
+     <!-- Custom JS -->
+     <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
